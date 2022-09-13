@@ -57,15 +57,11 @@ img{
 
 .third__conatiner{
     background-color: #222C2A;
-    padding: 4em 0;
+    padding: 3em 0;
 }
 
 .text{
     width: 45%;
-}
-
-.img{
-    width: 40%;
 }
 
 .text h2{
@@ -80,5 +76,28 @@ img{
 
 .fouth__container{
     background-color: #824936;
-    padding: 4em 0;
+    padding: 3em 0;
+}
+
+@media (max-width: 600px) {
+    .row{
+        display: block;
+    }
+
+    .text{
+        width: 100%;
+    }
+
+    .img img{
+        width: 100%;
+        margin-top: 3em;
+    }
+
+    .fouth__container{
+        padding-top: .5em;
+    }
+
+    .fouth__container h2{
+        padding-top: 1em;
+    }
 }
