@@ -80,6 +80,14 @@ img{
 }
 
 @media (max-width: 600px) {
+    .first__container{
+        padding: 5em 0;
+    }
+    
+    .inner__text h2{
+      font-size: 2em;
+    }
+
     .row{
         display: block;
     }
